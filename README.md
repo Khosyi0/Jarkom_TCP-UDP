@@ -34,6 +34,29 @@ Acknowledgment Number (raw) : 385768712
 
 ### No 5
 
+Sequence Number (raw) : 1533916408
+TCP Payload : 1311 bytes
+
+### No 6
+
+### No 7
+
+### No 8
+
+### No 9
+
+### No 10
+
+### No 11
+
+### No 12
+
+### No 13
+
+### No 14
+
+### No 15
+
 ## UDP
 
 ### No 1
@@ -46,10 +69,33 @@ Packet Number : 19
 
 ### No 2
 
-Panjang total UDP Header adalah 8 bytes dengan masing-masing 2 bytes.
+Panjang masing-masing UDP Header adalah 8 bytes dengan masing-masing ukuran field 2 bytes (16 bit).
 
 ### No 3
 
 ![ss](gambar/gambar-2-3.png)
 
 Header + Data = 33 + 8 = 41
+
+### No 4
+
+Panjangnya adalah 16-bit dan nilai maksimumnya adalah 65.535 serta ukuran headernya adalah 8 byte, maka payload maksimumnya adalah 65.527 byte.
+
+### No 5
+
+(2^16 – 1) = 65535
+
+### No 6
+
+![ss](gambar/gambar-2-6.png)
+
+Protocol: UDP (17)
+
+### No 7
+
+![ss](gambar/gambar-2-7.png)
+
+First Packet = 6
+Second Packet = 7
+
+IP dari source packet pertama adalah IP dari destination packet kedua.
